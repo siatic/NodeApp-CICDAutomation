@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello, World by Devops Engineer AWS!');
+  res.send('Hello DevOps Engineers!');
 });
 
 app.listen(port, () => {
